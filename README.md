@@ -52,9 +52,3 @@ Dự án thực hành trên đa dạng các tập dữ liệu hình ảnh:
 3. Chạy lệnh giải nén `!unzip -q ten_file.zip` và các script dọn rác dữ liệu đi kèm.
 4. Chạy ô lệnh Huấn luyện để tạo file `.keras`.
 5. Chạy ô lệnh Dự báo. Lệnh `files.upload()` sẽ hiển thị nút tải ảnh lên để kiểm tra mô hình.
-
-**Tùy chọn 2: Chạy local trên IDLE**
-1. Cài đặt Python và các thư viện yêu cầu: `tensorflow`, `keras`, `pandas`, `numpy`, `matplotlib`, `Pillow`, `flask`.
-2. Đặt dữ liệu ảnh vào cùng thư mục chứa file mã nguồn.
-3. Nhấn `F5` chạy file Train để huấn luyện. 
-4. Nhấn `F5` chạy file Test. Hộp thoại `Tkinter` sẽ tự động bật lên để bạn chọn ảnh từ máy tính cá nhân và tiến hành dự đoán.
